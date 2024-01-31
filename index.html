@@ -1,0 +1,853 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style>
+	*, h3,h2,h1{
+		font-family: Comic SANS MS;
+	}
+	.bg{
+		background-size: cover;
+		background-position: center center;
+		background-image: url("bg.jpg");
+	}
+	p {
+		font-family: "PT Serif Static";
+	}
+	</style>
+
+<div class="w3-bar bg">
+	<div class="w3-bar-item" style="width: 20%; height: 15%;">
+		<img src="Boston 2.jpg.png" alt="" style="width:30%;">
+	</div>
+	<div class="w3-bar-item w3-center w3-text-white" style="display: flex; justify-content: right; width: 41%;">
+		<h1>BOSTON CELTICS</h1>
+	</div>
+</div>
+	
+<div class="w3-bar w3-black w3-card-4">
+<button class="w3-bar-item w3-button" onclick="tombol('HOME')">HOME</button>
+	<div class="w3-dropdown-hover">
+		<button class="w3-button">TEAM</button>	
+			<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-text-green">
+				<button class="w3-bar-item w3-button" onclick="tombol('Roster')">ROSTER</button>
+				<button class="w3-bar-item w3-button" onclick="tombol('CoachingStaff')">COACHING STAFF</button>
+			</div>
+	</div>
+		<button class="w3-bar-item w3-button" onclick="tombol('History')">HISTORY</button>
+	<div class="w3-dropdown-hover">
+		<button class="w3-button">STORE</button>
+			<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-text-green">
+				<button class="w3-bar-item w3-button" onclick="tombol('Jersey')">Jersey</button>
+				<button class="w3-bar-item w3-button" onclick="tombol('T-Shirt')">T-shirt</button>
+				<button class="w3-bar-item w3-button" onclick="tombol('Hats')">Hats</button>
+			</div>
+	</div>
+<button class="w3-bar-item w3-button" onclick="tombol('ABOUTME')">ABOUT ME</button>
+</div>
+
+<center>
+<hr>
+<div class="w3-display-container show" id="HOME">
+	<a href="https://vote.nba.com/en?cid=nba:team:dig:site:dw:jh:jb:jt:kp:asv:asvote:global:t-celtics&utm_medium=team_digital&utm_source=site-jh-jb-jt-kp_na&utm_campaign=all-star-voting_all-star-vote&utm_content=nba:team:dig:site:dw:jh:jb:jt:kp:asv:asvote:global:t-celtics&pid=1628401,201950,1627759,1628369,204001&_gl=1*4ovz7g*_ga*MTU3ODgzODIxNi4xNzA1MzE3NTQw*_ga_N0Q76FFCV9*MTcwNTMyNjM1NC4yLjEuMTcwNTMyNjgxOS4zMC4wLjA.">
+	<img src="Vote celtics.jpg" style="width:90%;height:150px">
+	</a>
+
+<hr>
+<div class="w3-display-container">
+<center>
+	<a href="https://www.ea.com/games/nba-live/nba-live-mobile">
+	<img src="nbalive.jpg" style="width:70%;height:100px">
+	</a>
+</div>
+
+<hr>
+<div class="w3-container">
+<img src="p.jpeg" style="width:100%">
+</div>
+</div>
+
+<center>
+<div>
+	<div class="w3-panel show" id="Roster">
+		<a href="https://vote.nba.com/en?cid=nba:team:dig:site:dw:jh:jb:jt:kp:asv:asvote:global:t-celtics&utm_medium=team_digital&utm_source=site-jh-jb-jt-kp_na&utm_campaign=all-star-voting_all-star-vote&utm_content=nba:team:dig:site:dw:jh:jb:jt:kp:asv:asvote:global:t-celtics&pid=1628401,201950,1627759,1628369,204001&_gl=1*4ovz7g*_ga*MTU3ODgzODIxNi4xNzA1MzE3NTQw*_ga_N0Q76FFCV9*MTcwNTMyNjM1NC4yLjEuMTcwNTMyNjgxOS4zMC4wLjA.">
+		<img src="CelticsVote.jpg" style="width:40%;height:150px">
+		</a>
+		<a href="https://www.nba.com/celtics/tickets">
+		<img src="CelticsTiket.jpg" style="width:40%;height:150px">
+		</a>
+	<hr>
+
+	<div class="w3-text-green">
+		<h2>Roster Boston Celtics 2023/2024</h2>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+        <div class="w3-panel w3-center" style="border: 1px solid black;">
+            <div class="w3-panel">
+                <img src="Horford.jpg" alt="" style="width: 20%;">
+            </div>
+            <div class="w3-text-green"><p>AL HORFORD</p></div>
+            <p>AGE: 38 HT: 6-9 WT: 240</p>
+            <center>
+                <table border="0">
+                    <tr>
+                        <th>GP</th>
+                        <th>PPG</th>
+                        <th>RPG</th>
+                        <th>APG</th>
+                    </tr>
+                    <tr>
+                        <th>35</th>
+                        <th>7.8</th>
+                        <th>6.9</th>
+                        <th>2.8</th>
+                    </tr>
+                </table>
+            </center>
+        </div>
+        <div class="w3-panel w3-center" style="border: 1px solid black;">
+            <div class="w3-panel">
+                <img src="DalaBanton.jpg" alt="" style="width: 20%;">
+            </div>
+            <div class="w3-text-green"><p>DALANO BANTON</p></div>
+            <p>AGE: 25 HT: 6-8 WT: 204</p>
+            <center>
+                <table border="0">
+                    <tr>
+                        <th>GP</th>
+                        <th>PPG</th>
+                        <th>RPG</th>
+                        <th>APG</th>
+                    </tr>
+                    <tr>
+                        <th>20</th>
+                        <th>2.6</th>
+                        <th>1.7</th>
+                        <th>0.6</th>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="White.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>DERRICK WHITE</p></div>
+			<p>AGE: 30 HT: 6-4 WT: 190</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>38</th>
+						<th>16.1</th>
+						<th>3.9</th>
+						<th>4.9</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Peterson.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>DREW PETERSON</p></div>
+			<p>AGE: 25 HT: 6-9 WT: 205</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>1</th>
+						<th>3</th>
+						<th>0</th>
+						<th>1</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="JaylenBrown.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>JAYLEN BROWN</p></div>
+			<p>AGE: 28 HT: 6-6 WT: 223</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>39</th>
+						<th>23.1</th>
+						<th>5.2</th>
+						<th>3.5</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Tatum.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>JAYSON TATUM</p></div>
+			<p>AGE: 26 HT: 6-8 WT: 210</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>39</th>
+						<th>26.9</th>
+						<th>8.4</th>
+						<th>4.4</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="JD Davison.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>JD DAVISON</p></div>
+			<p>AGE: 22 HT: 6-1 WT: 195</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>2</th>
+						<th>1</th>
+						<th>1</th>
+						<th>0</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Walsh.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>JORDAN WALSH</p></div>
+			<p>AGE: 20 HT: 6-6 WT: 205</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>1</th>
+						<th>0</th>
+						<th>4</th>
+						<th>0</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Holiday.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>JRUE HOLIDAY</p></div>
+			<p>AGE: 34 HT: 6-4 WT: 205</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>39</th>
+						<th>13.1</th>
+						<th>6.2</th>
+						<th>4.6</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Porzingis.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>KRISTAPS PORZINGIS</p></div>
+			<p>AGE: 29 HT: 7-2 WT: 240</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>31</th>
+						<th>19.1</th>
+						<th>6.8</th>
+						<th>2</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Lamar.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>LAMAR STEVENS</p></div>
+			<p>AGE: 27 HT: 6-7 WT: 230</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>16</th>
+						<th>2.4</th>
+						<th>1.4</th>
+						<th>0.4</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Kornet.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>LUKE KORNET</p></div>
+			<p>AGE: 29 HT: 7-1 WT: 250</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>29</th>
+						<th>4.9</th>
+						<th>3.6</th>
+						<th>0.9</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Queta.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>NEEMIAS QUETA</p></div>
+			<p>AGE: 25 HT: 7-0 WT: 248</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>15</th>
+						<th>4.9</th>
+						<th>4.9</th>
+						<th>0.5</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Brissett.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>OSHAE BRISSETT</p></div>
+			<p>AGE: 26 HT: 6-7 WT: 210</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>25</th>
+						<th>4.2</th>
+						<th>3.1</th>
+						<th>0.6</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+	<div class="w3-container" style="display: flex; gap: 1rem; width:85%">
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Prithcart.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>PAYTON PRITCHART</p></div>
+			<p>AGE: 26 HT: 6-1 WT: 195</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>42</th>
+						<th>7.9</th>
+						<th>3.2</th>
+						<th>2.9</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black;">
+			<div class="w3-panel">
+				<img src="Hauser.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>SAM HAUSER</p></div>
+			<p>AGE: 27 HT: 6-7 WT: 217</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>41</th>
+						<th>8.2</th>
+						<th>3.6</th>
+						<th>0.9</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+		<div class="w3-panel w3-center" style="border: 1px solid black; width: 50%;">
+			<div class="w3-panel">
+				<img src="SVI.jpg" alt="" style="width: 20%;">
+			</div>
+			<div class="w3-text-green"><p>SVI MYKHAILIUK</p></div>
+			<p>AGE: 27 HT: 6-7 WT: 205</p>
+			<center>
+				<table border="0">
+					<tr>
+						<th>GP</th>
+						<th>PPG</th>
+						<th>RPG</th>
+						<th>APG</th>
+					</tr>
+					<tr>
+						<th>19</th>
+						<th>2.3</th>
+						<th>0.9</th>
+						<th>0.3</th>
+					</tr>
+				</table>
+			</center>
+		</div>
+	</div>
+</div>
+
+		<div class="w3-panel show" id="CoachingStaff">
+			<a href="https://www.nba.com/celtics/tickets/suites?tab=Single+Game&camefrom=CFC_CELTICS_WEB_TILETC_SUITES">
+				<img src="Celtics suite.jpg" style="width:40%;height:150px">
+			</a>
+			<a href="https://www.nba.com/celtics/jrceltics#camps">
+				<img src="CelticsTiket.jpg" style="width:40%;height:150px">
+			</a>
+
+		<div class="w3-text-green">
+			<h3>Coaching Staff</h3>
+		<table class="w3-table w3-center" style="width: 50%;">
+		<tr>
+		  <th>Name</th>
+		  <th>Position</th>
+		</tr>
+		<tr>
+		  <td>Joe Mazzula</td>
+		  <td>Head Coach</td>
+		</tr>
+		<tr>
+			<td>Charles Lee</td>
+			<td>Assistant Coaches</td>
+		</tr>
+		<tr>
+			<td>Samuel Cassell</td>
+		</tr>
+		<tr>
+			<td>Tony Dobbins</td>
+		</tr>
+		<tr>
+			<td>Amile Jefferson</td>
+		</tr>
+		<tr>
+			<td>DJ MacLeay</td>
+		</tr>
+		<tr>
+			<td>Matthew Reynolds</td>
+		</tr>
+		<tr>
+			<td>Craig Luschenat</td>
+			<td>Player Enhancement Coaches</td>
+		</tr>
+		<tr>
+			<td>Phil Pressey</td>
+		</tr>
+		<tr>
+			<td>Tyler Lashbrook</td>
+		</tr>
+		<tr>
+			<td>Ross McMains</td>
+		</tr>
+		<tr>
+			<td>Alex Merg</td>
+		</tr>
+		<tr>
+			<td>Jermaine Bucknorg</td>
+		</tr>
+		<tr>
+			<td>Jeff Van Gundy</td>
+			<td>Senior Consultant</td>
+		</tr>
+		</table>
+		</div>
+		</div>
+
+		<div class="w3-container w3-text-green show" id="History">
+        <div class="w3-panel">
+            <center>
+                <h2>History Of Boston Celtics</h2>
+            </center>
+			<img src="History.jpg" style="width:40%;">
+		<div class="w3-text-black">
+                <p>Boston Celtics ( / ˈ s ɛ l t ɪ k s / SEL -tiks ) adalah tim bola basket profesional Amerika yang berbasis di Boston . Celtics berkompetisi di National Basketball Association (NBA) sebagai anggota Divisi Atlantik Wilayah Timur . Didirikan pada tahun 1946 sebagai salah satu dari delapan tim asli liga, Celtics memainkan pertandingan kandang mereka di TD Garden , di mana mereka juga berbagi kandang dengan Boston Bruins dari National Hockey League . Celtics terikat dengan Los Angeles Lakers untuk rekor sepanjang masa kejuaraan NBA dengan 17. Celtics saat ini memegang rekor kemenangan terbanyak dari tim NBA mana pun.</p>
+                <p>Celtics memiliki persaingan penting dengan Lakers. Persaingan kedua tim terutama terlihat pada tahun 1960an dan 1980an. Waralaba ini telah memainkan rekor melawan Lakers sebanyak 12 kali di Final NBA dan telah mengalahkan mereka sembilan kali. Empat pemain Celtics ( Bob Cousy , Bill Russell , Dave Cowens dan Larry Bird) telah memenangkan NBA Most Valuable Player Award ; secara keseluruhan, pemain Celtics telah memenangkan 10 penghargaan MVP yang memecahkan rekor NBA. [11] Julukan "Celtics" dan maskot mereka "Lucky the Leprechaun" mengacu pada populasi Irlandia yang besar di Boston , dan juga untuk Original Celtics , tim bola basket barnstorming yang bermain di awal abad ke-20.</p>
+                <p>Kenaikan dominasi Celtics dimulai pada akhir 1950-an, setelah tim, yang dipimpin oleh pelatih Red Auerbach , mengakuisisi center Bill Russell, yang kemudian menjadi landasan dinasti Celtics, dalam perdagangan draft-day pada tahun 1956. Dipimpin oleh Russell dan point guard Bob Cousy, Celtics memenangkan kejuaraan NBA pertama mereka pada tahun 1957. Russell, bersama dengan pemain pendukung berbakat dari Hall of Famers masa depan termasuk John Havlicek , Tom Heinsohn , KC Jones , Sam Jones , Satch Sanders , dan Bill Sharman , akan mengantarkan Celtics memasuki periode terhebat dalam sejarah waralaba, memenangkan delapan kejuaraan NBA berturut-turut dari tahun 1959 hingga 1966. Setelah Russell pensiun pada tahun 1969, tim memasuki periode pembangunan kembali. Pada pertengahan tahun 1970-an, Celtics menjadi pesaing sekali lagi, memenangkan kejuaraan pada tahun 1974 dan 1976 di bawah kepemimpinan center Dave Cowens , penyerang John Havlicek , dan point guard Jo Jo White . Pada 1980-an, Celtics kembali mendominasi. Tim mengalami persaingan baru dengan "Showtime" Lakers , yang dipimpin oleh Magic Johnson dan Kareem Abdul-Jabbar . Didukung oleh "Tiga Besar" Larry Bird, Kevin McHale , dan Robert Parish , Celtics memenangkan kejuaraan pada tahun 1981 , 1984 , dan 1986</p>
+				<p>Setelah Bird dan McHale pensiun, kepergian Parish, dan kematian mendadak dari draft pick tahun 1986 Len Bias dan pemain bintang Reggie Lewis , Celtics berjuang keras sepanjang tahun 1990an dan sebagian besar awal tahun 2000an. Baru setelah Celtics mengumpulkan "Tiga Besar" baru yang terdiri dari Kevin Garnett , Paul Pierce , dan Ray Allen , mereka kembali meraih kesuksesan. Di bawah kepemimpinan pelatih kepala Doc Rivers , tim mengalahkan Lakers untuk memenangkan kejuaraan pada tahun 2008 . Celtics mencapai Final NBA lagi pada tahun 2010 , tetapi kalah dari Los Angeles dalam seri tujuh pertandingan. Pada awal musim 2013-14, Garnett, Pierce, dan Allen tidak lagi bersama tim. Selama musim 2016-17 , Celtics meraih unggulan teratas di Wilayah Timur tetapi tersingkir di Final Konferensi. Dipimpin oleh Jaylen Brown dan Jayson Tatum , tim ini mencapai Final Konferensi empat kali selama enam tahun berikutnya dan kembali ke Final NBA pada tahun 2022, kalah dari Golden State Warriors .</p>
+        </div>
+		</div>
+    	</div>
+
+			<div class="show" id="Jersey">		
+				<h2>Official Online Store Of The Boston Celtics - Jersey</h2>
+			<div class="w3-container" style="display : flex; justify-content: center;">
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey1.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Unisex Jordan Brand Black Boston Celtics 2022/23 Swingman Custom Jersey - Statement Edition</h2>
+						<h2 style="font-size: 15px;">$150</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey2.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Unisex Nike White Boston Celtics 2023/24 Custom Swingman Jersey - City Edition</h2>
+						<h2 style="font-size: 15px;">$150</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey3.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Fanatics Branded Jayson Tatum Kelly Green Boston Celtics Fast Break Replica Jersey - Icon Edition</h2>
+						<h2 style="font-size: 15px;">$80</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey4.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Unisex Nike Jayson Tatum White Boston Celtics Swingman Jersey - Association Edition</h2>
+						<h2 style="font-size: 15px;">$120</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+			</div>
+			<div class="w3-container" style="display : flex; justify-content: center;">
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey5.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Fanatics Branded Jaylen Brown Kelly Green Boston Celtics Fast Break Replica Player Jersey</h2>
+						<h2 style="font-size: 15px;">$60</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey6.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Mitchell & Ness Larry Bird Black/Kelly Green Boston Celtics Hardwood Classics 1985/86 Split Swingman Jersey</h2>
+						<h2 style="font-size: 15px;">$102</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey7.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Mitchell & Ness Larry Bird Kelly Green Boston Celtics 1985/86 Galaxy Swingman Jersey</h2>
+						<h2 style="font-size: 15px;">$113</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="jersey8.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Mitchell & Ness Larry Bird Gold Boston Celtics 75th Anniversary 1985/86 Hardwood Classics Swingman Jersey</h2>
+						<h2 style="font-size: 15px;">$132</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="show" id="T-Shirt">
+			<h2>Official Online Store Of The Boston Celtics - T-Shirts</h2>
+			<div class="w3-container" style="display : flex; justify-content: center;">
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts1.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Fanatics Branded Black Boston Celtics Alternate Logo T-Shirt</h2>
+						<h2 style="font-size: 15px;">$27</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts-2.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Unisex Nike Kelly Green Boston Celtics 2023/24 Legend On-Court Practice Long Sleeve T-Shirt</h2>
+						<h2 style="font-size: 15px;">$42</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts3.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Green Boston Celtics 2023/24 City Edition Long Sleeve T-Shirt</h2>
+						<h2 style="font-size: 15px;">$40</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts4.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Women's Fanatics Branded Jayson Tatum Black Boston Celtics Playmaker Name & Number Long Sleeve V-Neck T-Shirt</h2>
+						<h2 style="font-size: 15px;">$35</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+			</div>
+			<div class="w3-container" style="display : flex; justify-content: center;">
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts5.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Nike Charcoal Boston Celtics 2023/24 City Edition Max90 Expressive Long Sleeve T-Shirt</h2>
+						<h2 style="font-size: 15px;">$50</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts6.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Stadium Essentials Heather Gray Boston Celtics Atrium Raglan Long Sleeve Hoodie T-Shirt</h2>
+						<h2 style="font-size: 15px;">$50</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts7.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Unisex NBA x Brain Dead Cream Boston Celtics Identify Artist Series T-Shirt</h2>
+						<h2 style="font-size: 15px;">$50</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="T-shirts8.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Nike Kelly Green Boston Celtics Just Do It T-Shirt</h2>
+						<h2 style="font-size: 15px;">$50</h2>
+						<h2 style="font-size: 15px;">S-M-L-XL-2XL-3XL</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="show" id="Hats">
+			<h2>Official Online Store Of The Boston Celtics - Hats</h2>
+			<div class="w3-container" style="display : flex; justify-content: center;">
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats1.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Green Boston Celtics Springtime Camo 59FIFTY Fitted Hat</h2>
+						<h2 style="font-size: 15px;">$33</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats2.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Mitchell & Ness Black Boston Celtics MVP Team Script 2.0 Stretch-Snapback Hat</h2>
+						<h2 style="font-size: 15px;">$26</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats3.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Kelly Green Boston Celtics 2023/24 City Edition Alternate 9FIFTY Snapback Adjustable Hat</h2>
+						<h2 style="font-size: 15px;">$30</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats4.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Cream/Kelly Green Boston Celtics Piping 2-Tone 59FIFTY Fitted Hat</h2>
+						<h2 style="font-size: 15px;">$35</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+			</div>
+			<div class="w3-container" style="display : flex; justify-content: center;">
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats5.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Kelly Green Boston Celtics Piped & Flocked 59Fifty Fitted Hat</h2>
+						<h2 style="font-size: 15px;">$35</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats6.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's Mitchell & Ness Black/Kelly Green Boston Celtics Hardwood Classics Snapback Hat</h2>
+						<h2 style="font-size: 15px;">$35</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats7.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Black Boston Celtics Crown Champs 59FIFTY Fitted Hat</h2>
+						<h2 style="font-size: 15px;">$35</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="width: 60%;">
+					<img src="Hats8.jpg" width="60%">
+					<div class="w3-container w3-white">
+						<h2 style="font-size: 15px;">Men's New Era Rust/Black Boston Celtics Two-Tone 59FIFTY Fitted Hat</h2>
+						<h2 style="font-size: 15px;">$35</h2>
+						<h2 style="font-size: 15px;">7-8-7/5-7 1/8-7 1/5</h2>
+						<button class="w3-button w3-green w3-margin-bottom" onclick="">Buy</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+						<div class="w3-panel show" id="ABOUTME">
+							<div class="w3-twothird w3-left">
+								<img src="Azka.jpg" style="width:80%">
+							</div>
+							<div class="w3-third">
+								<h1>Azka Muhammad Zharfan</h1>
+								<h1>10123432</h1>
+								<h1>IF11</h1>
+							<div style="margin-bottom:5px; border-bottom: 2px solid #cccccc; padding: 3px; text-align: center;">
+							</div>
+							<div style="text-align: center;">
+								<a href="https://x.com/ZkaM27?t=6CjiQ_YXpCcFmm2qokOBuw&s=08" target="_black"><i class="fa-brands fa-twitter fa-2xl" style="color: #74C0FC; border: medium none; position: relative; "></i></a>
+								<a href="https://www.instagram.com/azkamm_?igsh=ZXRjenl5NndhdjQ4" target="_black"><i class="fa-brands fa-instagram fa-2xl" style="color: #74C0FC; border: medium none; position: relative; "></i></a>
+								<a href="https://www.linkedin.com/in/azka-muhammad-zharfan-608389293/" target="_black"><i class="fa-brands fa-linkedin fa-2xl" style="color: #74C0FC; border: medium none; position: relative; "></i></a>
+								<a href="https://wa.me/08983829778" target="_black"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #74C0FC; border: medium none; position: relative; "></i></a>
+								<a href="https://pin.it/5BPchfAKc" target="_black"><i class="fa-brands fa-pinterest fa-2xl" style="color: #74C0FC; border: medium none; position: relative; "></i></a>
+							</div>
+							</div>
+						</div>
+		
+<script>
+		function tombol(tomboName) {
+			var i ;
+			var x = document.getElementsByClassName("show");
+			for (i = 0; i <x.length;i++) { 
+				x[i].style.display= "none";
+			}
+		document.getElementById(tomboName).style.display = "block";
+		}		
+</script>
+
+
+	
+
+	
+
+	
